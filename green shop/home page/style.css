@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0px 120px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px;
+    width: 1200px;
+    align-items: center;
+    height: 60px;
+}
+
+.ahref {
+    gap: 50px;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.ahref>a {
+    color: #3D3D3D;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: normal;
+}
+
+.gap {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.btn1 {
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+    background: #46A358;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-color: transparent;
+}
+
+.text {
+    text-decoration: none;
+}
+
+.btn1:hover {
+    background-color: #46a35965;
+    color: #46A358;
+}
+
+.line {
+    width: 1200px;
+    height: 0.3px;
+    background: rgba(70, 163, 88, 0.50);
+    display: flex;
+    justify-content: center;
+}
+
+.btn2 {
+    width: 140px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #46A358;
+    margin-top: 44px;
+    color: white;
+    border-color: transparent;
+}
+
+.btn2:hover {
+    background-color: #46a35965;
+    color: #46A358;
+}
+.ahref>a:hover{
+    color: white;
+    background-color: #46A358;
+    border: 0.5px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+    width: 60px;
+}
+
+@media(max-width: 350px){
+    *{
+        width: 350pxw;
+    }
+}

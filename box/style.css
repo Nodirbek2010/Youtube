@@ -1,0 +1,51 @@
+.container {
+    height: 98vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box1 {
+    width: 15vh;
+    height: 15vh;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    width: 15vh;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(35, 150, 196);
+}
+
+.box3 {
+    width: 15vh;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 80, 112);
+}
+
+.box1:hover {
+    transform: scale(1.5);
+    transition: all 1s ease-in-out;
+    border-radius: 20%;
+}
+
+.box2:hover {
+    transform: scale(0.5);
+    transition: all 1s ease-in-out;
+    border-radius: 40%;
+}
+
+.box3:hover {
+    transform: scaleY(2);
+    transition: all 1s ease-in;
+    border-radius: 50%;
+}

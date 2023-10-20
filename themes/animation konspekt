@@ -1,0 +1,15 @@
+animation-name  --  animatsiya nomi;
+
+animation-duration  --  animatsiya davomiyligi;
+
+animation-timing-function   --  boshlanish va tugash tezligi;
+
+animation-delay --  refresh berilgan animatsiya boshlanguncha bo'lgan vaqt;
+
+animation-fill-mode: backwards; --  animatsiya buyrug'larini oxiridan boshiga qarab bajaradi;
+
+animation-fill-mode: forwards;  --  animatsiya buyrug'larini default holatda bajaradi;
+
+animation-iteration-count   --  animatsiyani bajarish soni (infinite--cheksiz);
+
+animation-direction --  animatsiyaning ijro etish usuli (alternate - default holatda ijro etib so'ng oxiridan boshiga qaytadi   ,   normal  -   normal holatda  ,   reverse -   teskari tartibda.);

@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background: var(--dark-900, #181818);
+}
+
+.nav1 {
+    background: #212121;
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    align-items: center;
+}
+
+.nav-logo1 {
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav-input {
+    display: flex;
+    width: 639px;
+    height: 32px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.nav-input>input {
+    color: white;
+    display: flex;
+    width: 574px;
+    height: 32px;
+    padding: 3px 6px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 2px 0px 0px 2px;
+    border: 1px solid var(--white-20, rgba(255, 255, 255, 0.20));
+    background: var(--dark-900, #000);
+}
+
+.nav-input>input:focus {
+    color: white;
+}
+
+.ikki,
+.one {
+    gap: 24px;
+    display: flex;
+}
+
+.nav-left {
+    background: #212121;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.users {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-one {
+    display: flex;
+    width: 240px;
+    gap: 20px;
+}
+
+.daha,
+.premium {
+    gap: 10px;
+    display: flex;
+}
+
+.down {
+    display: flex;
+}
+
+.nav2 {
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav2>button {
+    padding: 5px 20px;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid var(--white-40, rgba(255, 255, 255, 0.40));
+    background: var(--white-20, rgba(255, 255, 255, 0.20));
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.cards>img {
+    /* width: 312px;
+    height: 243px; */
+    width: 100%;
+}
+
+.down {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.kichik {
+    height: 200px;
+}
+
+.nav-left {
+    overflow: visible;
+}

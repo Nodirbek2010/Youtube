@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section1 {
+    color: white;
+    background-image: url(assest/images/Rectangle\ 9551background\ image.jpg);
+    padding: 0 0 0 -10vh;
+    background-repeat: no-repeat;
+    background-size: 195vh;
+    width: 100%;
+    height: 100vh;
+}
+
+.nav-item {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 68px;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+}
+
+.td,
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: space-around;
+}
+
+.barcha {
+    display: flex;
+    flex-direction: column;
+    height: 15vh;
+    justify-content: space-between;
+}
+
+.section2{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: black;
+}
