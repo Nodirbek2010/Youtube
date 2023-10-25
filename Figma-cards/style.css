@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 5vh 5vh 5vh 5vh;
+    justify-content: space-around;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    background: gray;
+    max-width: 1440px; 
+    margin: 0 auto;
+}
+
+.card1 {
+    width: 200px;
+    background: white;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper>img {
+    padding-top: 10px;
+}
+
+.text {
+    padding-left: 15px;
+}
+
+.wrapper>button {
+    border-radius: 15px;
+    border: 0.5px solid var(--ui-red, #FF4343);
+    height: 25px;
+}
+
+.card1:hover{
+    opacity: 0.75;
+}
